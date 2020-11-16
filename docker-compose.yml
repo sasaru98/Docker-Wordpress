@@ -41,6 +41,7 @@ services:
       PMA_USER: "${DB_USER}"
       PMA_PASSWORD: "${DB_PASS}"
       MYSQL_ROOT_PASSWORD: "${DB_ROOT_PASSWORD}"
+      UPLOAD_LIMIT: 3000000000
     ports:
       - ${IP}:8080:80
     links:
