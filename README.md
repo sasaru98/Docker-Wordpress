@@ -15,7 +15,7 @@ Companion containers. These containers will handle https.
 
 ## WordPress Setup
 
-* Copy the `wordpress_01` directory for each WordPress site you want to host. I created a copy called `wordpress_02` as an example. If you only want to host one site you can delete `wordpress_02` and modify `wordpress_01` to your liking.
+* Copy the `example` directory for each WordPress site you want to host. I created a copy called `wordpress_02` as an example. If you only want to host one site you can delete `wordpress_02` and modify `wordpress_01` to your liking.
 
 * In each site directory is a `sample.env` - copy that file, edit the environment variables and
 rename it to `.env`. Each site directory must contain this environment file.

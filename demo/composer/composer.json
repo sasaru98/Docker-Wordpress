@@ -6,7 +6,6 @@
         }
     ],
     "require": {
-        "wpackagist-plugin/wordpress-seo":"*",
-        "wpackagist-plugin/wp-super-cache":"*"
+        //"wpackagist-plugin/wordpress-seo":"*",
     }
 }
